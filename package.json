@@ -1,7 +1,7 @@
 {
   "name": "wp-search-index",
   "description": "Module for indexing wp sites for our search service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
