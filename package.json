@@ -3,7 +3,6 @@
   "description": "Module for indexing wp sites for our search service",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
@@ -22,8 +21,7 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "node index.js",
-    "dev": "NODE_ENV=development && node index.js",
+    "start": "node index.js .env",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [

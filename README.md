@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/telemark/wp-search-index.svg?branch=master)](https://travis-ci.org/telemark/wp-search-index)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/wp-search-index.svg)](https://greenkeeper.io/)
+
 # wp-search-index
 
 Module for indexing wp sites for our [search service](https://github.com/telemark/search-service)
@@ -32,3 +36,5 @@ This will start the indexing with the enironmental variables from .env
 ## License
 
 [MIT](LICENSE)
+
+![Robohash image of search-service](https://robots.kebabstudios.party/search-service.png "Robohash image of search-service")
