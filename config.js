@@ -1,6 +1,3 @@
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config()
-}
 module.exports = {
   API_URL: process.env.API_URL || 'http://localhost/wp-json/wp/v2/posts',
   SEARCH_SERVICE: process.env.SEARCH_SERVICE || 'http://localhost:3000',
