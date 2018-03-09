@@ -1,8 +1,12 @@
 #!/usr/bin/env node
+const logger = require('./lib/logger')
 const env = process.argv[2]
 
 if (env) {
+  logger('info', ['index', 'loading environment', env])
   require('dotenv').config(env)
+} else {
+  logger('warn', ['index', 'no environment loded'])
 }
 
 const config = require('./config')
