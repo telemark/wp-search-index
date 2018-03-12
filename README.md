@@ -4,8 +4,6 @@
 
 # wp-search-index
 
-Module for indexing wp sites for our search service
-=======
 Module for indexing wp sites for our [search service](https://github.com/telemark/search-service)
 
 ## Config
