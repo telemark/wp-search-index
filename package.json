@@ -13,7 +13,7 @@
     "wp-search-index": "./index.js"
   },
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=8.11.4"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
