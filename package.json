@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/telemark/wp-search-index#readme",
   "devDependencies": {
-    "ava": "3.4.0",
+    "ava": "3.7.1",
     "coveralls": "3.0.9",
     "nyc": "15.0.0",
     "standard": "13.1.0"
